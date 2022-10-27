@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EmployeeRepository extends CrudRepository<Employee, Long> {
+
 //    CrudRepository is a parent child relationship
 //     extends CrudRepository<Employee, Long> - manages Employee table ,
 //
