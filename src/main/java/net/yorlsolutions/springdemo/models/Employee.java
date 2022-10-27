@@ -15,7 +15,6 @@ public class Employee {
     public String role;
 
     @Id
-
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     public Long id;
 

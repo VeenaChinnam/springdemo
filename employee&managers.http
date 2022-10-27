@@ -1,0 +1,59 @@
+###
+POST http://localhost:8080/api/employee
+Content-Type: application/json
+
+{
+  "name": "Ram",
+  "role": "teacher"
+
+
+}
+
+
+###
+POST http://localhost:8080/api/employee/Array
+Content-Type: application/json
+
+[
+  {
+    "name": "kim",
+    "role": "teacher"
+  },
+  {
+    "name": "kole",
+    "role": "Teamlead"
+  },
+  {
+    "name": "Ram",
+    "role": "teacher"
+  },
+  {
+    "name": "Elwyn",
+    "role": "Teamlead"
+  }
+
+]
+
+
+###
+DELETE http://localhost:8080/api/employee/3
+Content-Type: application/json
+
+
+
+###
+#POST http://localhost:8080/api/manager
+POST http://localhost:8080/api/manager/?managersName=jim
+
+
+###
+PUT http://localhost:8080/api/manager/?manager_id=13&employee_id=2
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/api/manager
+Content-Type: application/json
+
+
+
