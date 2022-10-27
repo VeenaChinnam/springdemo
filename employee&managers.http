@@ -36,7 +36,15 @@ Content-Type: application/json
 
 
 ###
-DELETE http://localhost:8080/api/employee/3
+GET http://localhost:8080/api/employee
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/employee/{{id}}
+
+
+###
+DELETE http://localhost:8080/api/employee/{{id}}
 Content-Type: application/json
 
 
