@@ -1,0 +1,14 @@
+version: '3'
+
+
+services:
+  database-spring-demo:
+    image: 'postgres:latest'
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: veena
+      POSTGRES_PASSWORD: veena
+      POSTGRES_DB: postgres
+    volumes:
+      - ./database:/var/lib/postgresql/data
