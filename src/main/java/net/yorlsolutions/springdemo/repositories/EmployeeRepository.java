@@ -11,6 +11,4 @@ public interface EmployeeRepository extends CrudRepository<Employee, Long> {
 //     extends CrudRepository<Employee, Long> - manages Employee table ,
 //
 //     extends - access to  all the functions in the EmployeeRepository using interface
-//
-
 }

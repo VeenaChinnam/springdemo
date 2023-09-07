@@ -15,12 +15,10 @@ public class ManagerService {
         this. employeeRepository=  employeeRepository;
     }
 
-
     //adding new manager
     public void addNewManager(String managersName){
         repository.save(new Manager(managersName));
     }
-
     public void addDirectReport(Long employee_id, Long manager_id){
         final var employee = employeeRepository. findById(employee_id).orElseThrow();
         final var manager = repository. findById(manager_id).orElseThrow();

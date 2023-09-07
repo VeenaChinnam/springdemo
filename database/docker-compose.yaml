@@ -1,6 +1,5 @@
 version: '3'
 
-
 services:
   database-spring-demo:
     image: 'postgres:latest'
@@ -12,3 +11,4 @@ services:
       POSTGRES_DB: postgres
     volumes:
       - ./database:/var/lib/postgresql/data
+

@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/manager")
 public class ManagerController {
-
     private final ManagerService service;
 
     public ManagerController(ManagerService service){

@@ -23,7 +23,6 @@ public class EmployeeService {
     }
     public void addNewEmployeeArray(Employee[] employee) {
 //        for ( int i=0; i< employee.length; i++) {
-//            // code block to be executed
 //            repository.save(employee[i]);
 //        }
 
@@ -31,6 +30,7 @@ public class EmployeeService {
             repository.save(emp);
         }
     }
+
 
 
     public Iterable<Employee> getAllEmployees() {
